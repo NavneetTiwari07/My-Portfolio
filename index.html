@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navneet Tiwari - Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Navneet Tiwari, Data Analyst: Excel dashboards, Power BI, and analytics projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.33.0.min.js"></script>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Nav<span>neet</span></a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <i data-lucide="menu"></i>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <a class="btn btn-outline resume-btn" href="NAVNEET(Resume).pdf" download>Download Resume</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hello">Hello, I’m Navneet Tiwari</p>
+          <h1 class="gradient-text animate-pop">Data Analyst</h1>
+          <p class="subtitle">BSc IT student with expertise in Excel, Power BI, SQL, and Python, transforming data into actionable insights.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="orb orb-3"></div>
+          <div class="mesh"></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll to About">
+        <i data-lucide="chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid reveal">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            BSc IT student graduating in 2025 with a strong foundation in technology and a commitment to applying academic knowledge in practical settings. Demonstrates quick learning abilities and a high level of motivation to contribute effectively to innovative teams and projects. Eager to leverage technical skills to drive success in the IT industry.
+          </p>
+          <div class="about-cards">
+            <div class="about-card"><i data-lucide="bar-chart-3"></i><span>Excel Dashboards</span></div>
+            <div class="about-card"><i data-lucide="database"></i><span>SQL</span></div>
+            <div class="about-card"><i data-lucide="brain"></i><span>Data Analysis</span></div>
+            <div class="about-card"><i data-lucide="eye"></i><span>Data Visualization</span></div>
+            <div class="about-card"><i data-lucide="cloud"></i><span>Power BI</span></div>
+            <div class="about-card"><i data-lucide="filter"></i><span>Data Cleaning</span></div>
+            <div class="about-card"><i data-lucide="target"></i><span>KPI Tracking</span></div>
+            <div class="about-card"><i data-lucide="code"></i><span>Python Programming</span></div>
+          </div>
+        </div>
+        <div class="about-side">
+          <div class="about-panel">
+            <h3>What I’m Learning</h3>
+            <ul>
+              <li>Advanced Excel techniques</li>
+              <li>Interactive dashboards in Power BI</li>
+              <li>Python data analysis</li>
+              <li>Business analytics with SQL</li>
+            </ul>
+          </div>
+          <div class="about-panel">
+            <h3>Tools I Use</h3>
+            <ul>
+              <li>Microsoft Excel (Advanced)</li>
+              <li>Power BI</li>
+              <li>SQL (MySQL, PostgreSQL)</li>
+              <li>Python</li>
+              <li>Microsoft Office</li>
+              <li>Git, GitHub</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container reveal">
+        <h2>Skills</h2>
+        <p class="section-subtitle">Technical and analytical abilities</p>
+
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-top"><span>Excel</span><span>Advanced</span></div><div class="progress"><span data-progress="90"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Power BI</span><span>Intermediate</span></div><div class="progress"><span data-progress="75"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>SQL</span><span>Intermediate</span></div><div class="progress"><span data-progress="75"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Python</span><span>Intermediate</span></div><div class="progress"><span data-progress="50"></span></div></div>
+          <div class="skill"><div class="skill-top"><span>Data Visualization</span><span>Intermediate</span></div><div class="progress"><span data-progress="75"></span></div></div>
+          <div class="tags">
+            <span class="tag">Excel</span><span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="projects" class="section">
+      <div class="container reveal">
+        <h2>Projects</h2>
+        <p class="section-subtitle">Interactive, animated examples with embedded charts.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1: Sales Trends (Chart.js) -->
+          <article class="project-card">
+          <div class="project-header">
+            <h3>Customer Segmentation</h3>
+            <div class="tech">
+              <span>Python</span><span>scikit-learn</span><span>Plotly</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            K-means clustering on customer RFM metrics with interactive 3D visualization for stakeholder exploration.
+          </p>
+          <div class="chart-wrap">
+            <img src="Screenshot 2025-08-14 203643.png" alt="Customer Segmentation Dashboard" class="chart-img">
+          </div>
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/username/customer-segmentation" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+          <!-- Project 2: Customer Segmentation (Plotly) -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Customer Segmentation</h3>
+              <div class="tech">
+                <span>Python</span><span>scikit-learn</span><span>Plotly</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              K-means clustering on customer RFM metrics with interactive 3D visualization for stakeholder exploration.
+            </p>
+            <div class="chart-wrap">
+              <img src="Screenshot 2025-08-08 231634.png" alt="Customer Segmentation Dashboard" class="chart-img">
+            </div>
+            <div class="project-links">
+              <a class="btn btn-ghost" href="https://github.com/username/customer-segmentation" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+
+          <!-- Project 3: A/B Test Dashboard (Chart.js) -->
+          <article class="project-card">
+          <div class="project-header">
+            <h3>Customer Segmentation</h3>
+            <div class="tech">
+              <span>Python</span><span>scikit-learn</span><span>Plotly</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            K-means clustering on customer RFM metrics with interactive 3D visualization for stakeholder exploration.
+          </p>
+          <div class="chart-wrap">
+            <img src="Screenshot 2025-08-14 203643.png" alt="Customer Segmentation Dashboard" class="chart-img">
+          </div>
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/username/customer-segmentation" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+
+          <!-- Optional Project 4 -->
+          <article class="project-card">
+          <div class="project-header">
+            <h3>Customer Segmentation</h3>
+            <div class="tech">
+              <span>Python</span><span>scikit-learn</span><span>Plotly</span>
+            </div>
+          </div>
+          <p class="project-desc">
+            K-means clustering on customer RFM metrics with interactive 3D visualization for stakeholder exploration.
+          </p>
+          <div class="chart-wrap">
+            <img src="Screenshot 2025-08-14 203643.png" alt="Customer Segmentation Dashboard" class="chart-img">
+          </div>
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/username/customer-segmentation" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <p class="section-subtitle">Let’s connect for collaborations, internships, or discussions.</p>
+        <div class="contact-grid">
+          <a class="social" href="https://www.linkedin.com/in/navneet-tiwari-90309a305" target="_blank"><i data-lucide="linkedin"></i><span>LinkedIn</span></a>
+          <a class="social" href="https://github.com/NavneetTiwari07" target="_blank"><i data-lucide="github"></i><span>GitHub</span></a>
+          <a class="social" href="mailto:tiwarinavneet2004@gmail.com"><i data-lucide="mail"></i><span>Email</span>
+</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+  <p>© <span id="year"></span> Navneet Tiwari • Data Analytics Portfolio | Crafted with precision & insight.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
