@@ -184,4 +184,16 @@ window.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("load", initCharts);
 
   
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll(".toggle-img");
+
+    images.forEach(img => {
+        img.addEventListener("click", function () {
+            let current = this.getAttribute("src");
+            let alternate = this.getAttribute("data-alt");
+
+            this.setAttribute("src", alternate);
+            this.setAttribute("data-alt", current);
+        });
+    });
+});
